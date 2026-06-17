@@ -1,9 +1,26 @@
-package basic_structure_and_syntax; //this is a simplejava program that prints "Hello, World!" to the console. It consists of a class named "helloworld" and a main method that serves as the entry point of the program. The main method uses the System.out.println() function to output the string "Hello, World!" to the console when the program is executed.  
+package basic_structure_and_syntax; 
 
-
-public class helloworld { //this the class declaration, the name of the class is hello world
-    public static void main(String[] args) { //ito hahanapin ni terminal para umaandar ang program, ito yung main method na siyang entry point ng program
+public class helloworld {   
+      public static void main(String[] args) { //ito hahanapin ni terminal para umaandar ang program, ito yung main method na siyang entry point ng program
         //yan ang front page
         System.out.println("Hello, World!");
+        System.out.println("Im Grace Camacho");
+        System.out.println(123456789012l);
+        System.out.println("I am a student at De La Salle University.");
+        System.out.println("I am currently taking up Information Technology.");
+        System.out.println("I want to be rich");
+        System.out.println("addition");
+        System.out.print("5 + 3 = ");
+        System.out.println(5 + 3);
+        System.out.println("subtraction");
+        System.out.print("5 - 3 = ");
+        System.out.println(5 - 3);
+        System.out.println("multiplication");
+        System.out.print("5 * 3 = ");
+        System.out.println(5 * 3);
+        System.out.println("division");
+        System.out.print("5 / 3 = ");
+        System.out.println(5 / 3);
+
     }
 }
