@@ -23,6 +23,6 @@ public class data {
         System.out.println("myVar1: " + myVar1);
         System.out.println("You can put " + myVar2 + " in your facebook post");
         System.out.println("The symbol when questioning is " + myVar3);
-        
+    
 }
 }
